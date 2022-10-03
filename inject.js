@@ -6,7 +6,7 @@ function inject()
     setTimeout(() => //Wait for AWS script to have initalised
     {
         let tts = document.createElement("script");
-        tts.src = "https://cdn.jsdelivr.net/gh/Kizuneyo/Files@main/inject.js";
+        tts.src = "https://cdn.jsdelivr.net/gh/Kizuneyo/Files@main/tts.js";
         document.body.appendChild(tts);
     }, 5000);
 }
